@@ -3,7 +3,7 @@ const { ethers } = require('ethers');
 async function main() {
   const provider = new ethers.providers.JsonRpcProvider('https://polygon-mainnet.infura.io/v3/e9dd05d61b7b44f29658158337322ca6');
 
-  const walletPrivateKey = 'd42571c7434b4c9c7517849e125ab7283772fe3e4234105edf4434ba15d427b1';
+  const walletPrivateKey = 'xxx';
 
   const gnosisSafeABI = [
     {
